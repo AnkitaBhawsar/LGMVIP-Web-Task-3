@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration-Form data display on same page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <h1>STUDENT ENROLLMENT FORM</h1>
+    <div id="container">
+      <div id="nameDiv"class="input">Name: <input id="name" type="text" placeholder="John Smith" />  </div>
+      <div class="input">Email: <input id="email" type="text" placeholder="john@gmail.com" />  </div>
+      <div class="input">Age: <input id="age" type="text" placeholder="20" />  </div>
+      <div class="input">Gender: <input type="radio" name="r1">Male
+                                 <input type="radio" name="r1">Female</div>
+      <div class="input">Skills: <input type="checkbox"> Java
+                                 <input type="checkbox"> HTML
+                                 <input type="checkbox"> CSS
+      </div>
+       <div class= "input">
+         <button id="entry" type="submit">Enroll Student</button>
+       </div>
+
+    </div>
+
+    <table id="display">
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Skills</th>
+
+      </tr>
+
+    </table>
+
+
+    <script src="index.js></script>
+  </body>
+</html>
